@@ -10,9 +10,7 @@ def solution(number, k):
         if i+1 == tmp:
             break
         
-        if number[i] == '9':
-            continue
-        else:
+        if number[i] != '9':
             for j in range(i+1,tmp):
                 if number[i] < number[j]:
                     answer.append(i)
