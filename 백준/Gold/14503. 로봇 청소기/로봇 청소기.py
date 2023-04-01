@@ -1,6 +1,3 @@
-import sys
-input = sys.stdin.readline
-
 n,m = map(int,input().split())
 graph = []
 visited = [[False] * m for _ in range(n)]
